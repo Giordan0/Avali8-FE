@@ -1,0 +1,8 @@
+.av8-img{
+    background-image: url('../../../../assets/img/photo-home.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
