@@ -5,9 +5,8 @@ import { UserFormComponent } from './user-form/user-form.component';
 
 
 const routes: Routes = [
-  { path: '', component: UserListComponent },
+  { path: 'list', component: UserListComponent },
   { path: ':id', component: UserListComponent},
-  { path: 'new', component: UserFormComponent },
   { path: ':id/edit', component: UserFormComponent },
   { path: ':id/delete', component: UserFormComponent}
 ];
