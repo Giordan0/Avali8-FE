@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Crie sua conta no avali8!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="Cadastro.css" />
+</head>
+<body>
+  <div class="container">
+
+    <div class="cabecalho">
+      <img src="img/avali8br.png" class="logo"> <!--Logo Avali8-->
+      <ul id= "cabeca"> <!--Botões do cabeçalho-->
+        <a href="Home.html" class ="Botao" id="Home">Home</a>
+        <a href="Login.html" class ="Botao" id="Login">Login</a>
+        <a href="Cadastro.html" class ="Botao" id="Cadastro">Cadastro</a>
+        <a href="Contato.html" class ="Botao" id="Contato">Contato</a>
+      </ul>
+    </div>
+
+    <div class="content">
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1 id="SignUp">Sign Up</h1> 
+          <p> 
+            <input id="nome" name="nome" required="required" type="text" placeholder="Username" />
+          </p>
+           
+          <p> 
+            <input id="email" name="email" required="required" type="email" placeholder="contact@domain.com"/> 
+          </p>
+           
+          <p> 
+            <input id="senha" name="senha" required="required" type="password" placeholder="ex: password"/>
+          </p>
+          <p> 
+            <input type="submit" value="Sign Up"/> 
+          </p>
+           
+          <p class="link">  
+            Already have an account?
+            <a href="login-teste.html"> Sign In </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>    
+</body>
+</html>
