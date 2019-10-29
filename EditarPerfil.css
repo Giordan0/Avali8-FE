@@ -5,3 +5,15 @@
     font-family: Times,sans-serif;
 }
 
+header{
+    background-color: #2A2A2A;
+    width: 100%;
+    height: 55px;
+}
+
+#logo{
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    width: 150px;
+}
