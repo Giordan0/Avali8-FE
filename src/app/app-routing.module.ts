@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'signup', component: SignupComponent },
   { path: 'user', loadChildren: './pages/user/user.module#UserModule' },
+  { path: 'question', loadChildren: './pages/question/question.module#QuestionModule' }
 ];
 
 @NgModule({
