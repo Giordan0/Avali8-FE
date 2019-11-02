@@ -1,0 +1,26 @@
+.active-pink-textarea.md-form label.active {
+    color: #fff;
+}
+
+.pink-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+
+.pink-textarea.md-form .prefix.active {
+    color: #fff;
+}
+.active-pink-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #fff;
+}
+
+@media only screen and (min-width: 992px){
+    .nav-item{
+        margin-left: 50px;
+    }
+}
+
+.main{
+    background-image: url(/img/photo-home.jpg);
+    background-size: cover;
+}
